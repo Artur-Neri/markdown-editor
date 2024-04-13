@@ -1,0 +1,32 @@
+.hamburguer {
+  width: var(--hamb-width);
+  height: var(--hamb-width);
+
+  background-color: var(--color-600);
+  background-image: var(--hamb-closed-img);
+  background-repeat: no-repeat;
+  background-position: center;
+
+  user-select: none;
+  -webkit-user-drag: none;
+
+  cursor: pointer;
+}
+
+/* .hamburguer img {
+  -webkit-user-drag: none;
+} */
+
+@media(max-width: 468px) {
+  :root {
+    --hamb-open-img: var(--hamb-mobile-open-img);
+    --hamb-closed-img: var(--hamb-mobile-closed-img);
+    --hamb-width: 52px;
+  }
+}
+
+@media(min-width: 768px) {
+  .hamburguer:active {
+    background-color: var(--color-orange);
+  }
+}

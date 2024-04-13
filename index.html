@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel="stylesheet" href="./styles/index.css">
+  <link rel="stylesheet" href="./styles/header.css">
+  <link rel="stylesheet" href="./styles/hamburguer.css">
+  <link rel="stylesheet" href="./styles/btnSave.css">
+  <link rel="stylesheet" href="./styles/btnNewDocument.css">
+  <link rel="stylesheet" href="./styles/sidebar.css">
+  <title>Frontend Mentor | In-browser markdown editor</title>
+</head>
+<body>
+  <!-- Sidebar start -->
+  <aside class="sidebar hide">
+    <h2>My Documents</h2>
+    <button id="btnNewDocument">+ new document</button>
+  </aside>
+
+  <!-- Sidebar end -->
+  <div class="content">
+    <header class="header">
+      <div class=" hamburguer" id="hamburguer"></div>
+      <p class="header-markdown">markdown</p>
+      <div class="header-document-info">
+        <div class="header-document">
+          <img src="./assets/file-img.png" alt="file icon">
+          <div class="header-document-text">  
+            <p class="document-label">Document name</p>
+            <p class="document-name">welcome.md</p>
+          </div>
+        </div>
+        <div class="header-controls">
+          <svg class="btn" width="18" height="20" xmlns="http://www.w3.org/2000/svg"><path id="btnDelete" d="M7 16a1 1 0 0 0 1-1V9a1 1 0 1 0-2 0v6a1 1 0 0 0 1 1ZM17 4h-4V3a3 3 0 0 0-3-3H8a3 3 0 0 0-3 3v1H1a1 1 0 1 0 0 2h1v11a3 3 0 0 0 3 3h8a3 3 0 0 0 3-3V6h1a1 1 0 0 0 0-2ZM7 3a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v1H7V3Zm7 14a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V6h10v11Zm-3-1a1 1 0 0 0 1-1V9a1 1 0 0 0-2 0v6a1 1 0 0 0 1 1Z" fill="#7C8187"/></svg>
+          <button id="btnSave"><img src="./assets/save-img.png" alt="save changes icon"><span>Save Changes</span></button>
+        </div>
+        
+      </div>
+    
+    </header>
+    <main>
+      Markdown
+    
+      Preview
+    </main>
+  </div>
+
+  <script src="./app/index.js"></script>
+  <script src="./app/hamburguer.js"></script>
+</body>
+</html>

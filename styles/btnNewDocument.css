@@ -1,0 +1,20 @@
+#btnNewDocument {
+  padding: 10px 0;
+  background-color: var(--color-orange);
+  border-radius: 4px;
+  border: none;
+  color: var(--color-100);
+  text-transform: capitalize;
+  cursor: pointer;
+
+  width: 202px;
+
+  margin-bottom: 24px;
+}
+
+@media (min-width: 900px) {
+  #btnNewDocument:hover,
+  #btnNewDocument:active {
+  background-color: var(--color-orange-hover);
+}
+}

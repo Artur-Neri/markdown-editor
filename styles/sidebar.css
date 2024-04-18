@@ -2,6 +2,9 @@
   color: var(--color-100);
   background-color: var(--color-900);
   padding: 27px 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .sidebar h2 {
@@ -11,4 +14,19 @@
   font-weight: 500;
   text-transform: uppercase;
   margin-bottom: 29px;
+}
+
+.sidebar-documents {
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+}
+
+.sidebar-document {
+  user-select: none;
+  cursor: pointer;
+}
+
+.sidebar-document:hover .document-name {
+  color: var(--color-orange-hover);
 }

@@ -38,18 +38,18 @@
   letter-spacing: 5px;
   font-weight: bold;
   font-size: 14px;
-  padding: 10px 24px;
+  padding: 10px 24px 10px 0;
+  margin-right: 24px;
   border-right: 1px solid var(--color-600);
 }
 
-.header-document {
-  padding-left: 24px;
+.header-document, .sidebar-document {
   display: flex;
   align-items: center;
   gap: 16px;
 }
 
-.document-label{
+.document-label, .sidebar-document-date{
   font-size: 13px;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;

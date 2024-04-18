@@ -3,8 +3,7 @@
   height: var(--hamb-width);
 
   background-color: var(--color-600);
-  /* background-image: var(--hamb-closed-img); */
-  background-image: url('../assets/hamburguer.png');
+  background-image: var(--hamb-closed-img);
   background-repeat: no-repeat;
   background-position: center;
 

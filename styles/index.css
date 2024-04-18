@@ -39,10 +39,6 @@
   display: none !important;
 }
 
-.open {
-  background-image: var(--hamb-open-img);
-}
-
 body {
   display: flex;
   height: 100vh;

@@ -2,15 +2,6 @@ const hamburguer = document.querySelector('#hamburguer');
 const sidebar = document.querySelector('.sidebar');
 const controls = document.querySelector('.header-controls');
 
-
-// IMAGES
-
-const hamburguer_open_desktop = '/assets/hamburguer-open.png';
-const hamburguer_closed_desktop = '/assets/hamburguer.png';
-
-const hamburguer_open_mobile = '/assets/hamburguer-mobile-open.png';
-const hamburguer_closed_mobile = '/assets/hamburguer-mobile.png';
-
 hamburguer.onclick = handleSideBar;
 
 function handleSideBar() {

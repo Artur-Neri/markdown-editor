@@ -3,7 +3,8 @@
   height: var(--hamb-width);
 
   background-color: var(--color-600);
-  background-image: var(--hamb-closed-img);
+  /* background-image: var(--hamb-closed-img); */
+  background-image: url('../assets/hamburguer.png');
   background-repeat: no-repeat;
   background-position: center;
 
@@ -13,10 +14,6 @@
   cursor: pointer;
   margin-right: 24px;
 }
-
-/* .hamburguer img {
-  -webkit-user-drag: none;
-} */
 
 @media(max-width: 468px) {
   :root {

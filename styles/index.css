@@ -17,11 +17,11 @@
   --color-orange-hover: #F39765;
 
   /* UTILS */
-  --hamb-mobile-closed-img: url('../assets/hamburguer-mobile.png');
-  --hamb-mobile-open-img: url('../assets/hamburguer-mobile-open.png');
+  --hamb-mobile-closed-img: url('/assets/hamburguer-mobile.png');
+  --hamb-mobile-open-img: url('/assets/hamburguer-mobile-open.png');
 
-  --hamb-desktop-closed-img: url('../assets/hamburguer.png');
-  --hamb-desktop-open-img: url('../assets/hamburguer-open.png');
+  --hamb-desktop-closed-img: url('/assets/hamburguer.png');
+  --hamb-desktop-open-img: url('/assets/hamburguer-open.png');
 
 
   --hamb-closed-img: var(--hamb-desktop-closed-img);
